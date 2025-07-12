@@ -13,4 +13,20 @@ Select `Write` to write the configuration
 
 <img width="1464" height="871" alt="image" src="https://github.com/user-attachments/assets/86d92276-f18c-41eb-a130-4a136a723beb" />
 
-## 2. 
+## 2. Connection Pin
+
+You've to configure the connection as follow
+| ESP32-S3 Super Min | MTF-02       |
+|--------------------|--------------|
+| VDD (5V)           | 5V (Black)   |
+| GND                | GND (Red)    |
+| RX - 1             | SCL (Yellow) |
+| TX - 2             | SDA (White)  |
+
+## 3. Upload the code and observe the result as follow
+
+```
+MTF02 - FlowX: -0.5 FlowY: 0.0 Quality: 57 Distance: 22cm Ready: YES
+MTF02 - FlowX: 0.0 FlowY: 0.5 Quality: 59 Distance: 22cm Ready: YES
+MTF02 - FlowX: -5.0 FlowY: 0.5 Quality: 56 Distance: 22cm Ready: YES
+```
