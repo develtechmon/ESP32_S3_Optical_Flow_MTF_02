@@ -5,7 +5,7 @@
 
 // MTF-02 Hardware Configuration
 #define MTF02_RX_PIN 1
-#define MTF02_TX_PIN 2
+#define MTF02_TX_PIN 3
 #define MTF02_BAUD 115200
 
 // Sensor data structure
