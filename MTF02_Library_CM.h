@@ -1,7 +1,7 @@
 // MTF02_Library.h - Enhanced MTF-02 Optical Flow & Distance Sensor Library
 // Version 3.2 - Configured for 100Hz operation with CM units (RECONSTRUCTED)
 // Author: Flight Controller Integration Version
-// Usage: #include "MTF02_Library.h" then call mtf02_init() and mtf02_update()
+// Usage: #include "MTF02_Library_CM.h" then call mtf02_init() and mtf02_update()
 
 #ifndef MTF02_LIBRARY_H
 #define MTF02_LIBRARY_H
