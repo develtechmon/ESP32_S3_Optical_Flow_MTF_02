@@ -25,7 +25,7 @@ void loop() {
     //}
     
     float pos_y = mtf02_get_position_y(); 
-    float pos_x = mtf02_get_position_z();
+    float pos_x = mtf02_get_position_x();
 
     // Example usage for position hold:
     //if (mtf02_is_ready_for_position_hold()) {
