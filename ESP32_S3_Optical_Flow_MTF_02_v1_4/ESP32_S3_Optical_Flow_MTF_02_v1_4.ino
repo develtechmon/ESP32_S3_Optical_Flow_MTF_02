@@ -19,6 +19,20 @@
 #define MTF02_EXPECTED_RATE_HZ 50       // Sensor update rate
 #define MTF02_TIMEOUT_MS 100            // Fast timeout for 50Hz
 
+// 100 hz
+//#define MTF01_EXPECTED_RATE_HZ 100
+
+// NEW (100Hz - double the throughput):
+//#define MTF01_MAX_BYTES_PER_UPDATE 300
+
+// NEW (100Hz - faster timeout):
+//#define MTF01_TIMEOUT_MS 50
+
+// NEW:
+//velocity_x = flow_x_pixels * meters_per_pixel * MTF01_EXPECTED_RATE_HZ;
+
+//Serial.printf("Actual rate: %.1f Hz (target: %d Hz)\n", actual_rate_hz, MTF01_EXPECTED_RATE_HZ);
+
 // ===== SENSOR PARAMETERS =====
 #define MTF02_FLOW_MIN_QUALITY 50       // Minimum quality threshold
 #define MTF02_MIN_DISTANCE_CM 8         // Minimum valid distance
