@@ -20,7 +20,7 @@ void loop() {
     
     // Example usage for altitude hold:
     //if (mtf02_is_ready_for_altitude_hold()) {
-    float current_altitude = mtf02_get_altitude_m() * 100;
+    float current_altitude = mtf02_get_altitude_m() * 100; // Convert metre to cm if you're using MTF02_Librarry_M.h
     // Use current_altitude in your altitude hold code
     //}
     
