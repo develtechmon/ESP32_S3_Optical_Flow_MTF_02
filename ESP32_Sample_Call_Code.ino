@@ -43,7 +43,7 @@ void loop() {
     Serial.print(" - ");
 
     Serial.print("Pos Y: ");
-    Serial.print(pos_x);
+    Serial.print(pos_y);
     Serial.print(" - ");
 
     Serial.print("Vel X: ");
