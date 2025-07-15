@@ -21,7 +21,9 @@
 #define MTF02_TIMEOUT_MS 50             // Fast timeout for 100Hz
 
 // ===== SENSOR PARAMETERS =====
-#define MTF02_FLOW_MIN_QUALITY 50       // Minimum quality threshold
+//#define MTF02_FLOW_MIN_QUALITY 50       // Minimum quality threshold
+#define MTF02_FLOW_MIN_QUALITY 35       // Minimum quality threshold to check if speed still drops to 0
+
 #define MTF02_MIN_DISTANCE_CM 8         // Minimum valid distance
 #define MTF02_MAX_DISTANCE_CM 300       // Maximum valid distance
 
